@@ -6,7 +6,7 @@ Usage
 python -m run_report.py input.csv ./output_dir
 """
 import sys
-from uplift_report import ReportGenerator
+from evaluation import ReportGenerator
 
 if __name__ == "__main__":
     if len(sys.argv) != 3:
